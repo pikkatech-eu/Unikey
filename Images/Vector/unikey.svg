@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 512"
+   x="0px"
+   y="0px"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="unikey.svg"
+   width="512"
+   height="512"
+   inkscape:export-filename="..\Desktop\noun-keyboard-key-4571629.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.1914062"
+     inkscape:cx="255.54368"
+     inkscape:cy="256.00001"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="334"
+     inkscape:window-y="1431"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12"
+     showgrid="false" />
+  <path
+     d="m 265.97699,459.82834 h 84.40294 a 46.946794,38.126506 0 0 0 46.89052,-38.0808 V 315.12127 a 46.946794,38.126506 0 0 0 -46.89052,-38.0808 h -84.40294 a 46.946794,38.126506 0 0 0 -46.89053,38.0808 v 106.62627 a 46.946794,38.126506 0 0 0 46.89053,38.0808 z M 237.84267,315.12127 a 28.134314,22.848485 0 0 1 28.13432,-22.84848 h 84.40294 a 28.134314,22.848485 0 0 1 28.1343,22.84848 v 76.16162 a 28.134314,22.848485 0 0 1 -28.1343,22.84849 h -84.40294 a 28.134314,22.848485 0 0 1 -28.13432,-22.84849 z m 0,106.42825 a 46.402863,37.684768 0 0 0 28.13432,7.81418 h 84.40294 a 46.402863,37.684768 0 0 0 28.1343,-7.81418 v 0.19802 a 28.134314,22.848485 0 0 1 -28.1343,22.84849 h -84.40294 a 28.134314,22.848485 0 0 1 -28.13432,-22.84849 z"
+     id="path1"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;stroke-width:0.999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
+  <path
+     d="M 208.77548,227.53542 V 120.90915 A 46.946794,38.126506 0 0 0 161.88495,82.828344 H 77.482007 A 46.946794,38.126506 0 0 0 30.591489,120.90915 v 106.62627 a 46.946794,38.126506 0 0 0 46.890518,38.0808 h 84.402943 a 46.946794,38.126506 0 0 0 46.89053,-38.0808 z M 49.347701,120.90915 A 28.134314,22.848485 0 0 1 77.482007,98.060667 h 84.402943 a 28.134314,22.848485 0 0 1 28.13432,22.848483 v 76.16162 a 28.134314,22.848485 0 0 1 -28.13432,22.84849 H 77.482007 A 28.134314,22.848485 0 0 1 49.347701,197.07077 Z m 0,106.62627 v -0.19802 a 46.402863,37.684768 0 0 0 28.134306,7.81418 h 84.402943 a 46.402863,37.684768 0 0 0 28.13432,-7.81418 v 0.19802 A 28.134314,22.848485 0 0 1 161.88495,250.3839 H 77.482007 A 28.134314,22.848485 0 0 1 49.347701,227.53542 Z"
+     id="path2"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;stroke-width:0.999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
+  <path
+     d="m 73.725829,459.82834 h 84.402941 a 46.946794,38.126506 0 0 0 46.89053,-38.0808 V 315.12127 a 46.946794,38.126506 0 0 0 -46.89053,-38.0808 H 73.725829 a 46.946794,38.126506 0 0 0 -46.890526,38.0808 v 106.62627 a 46.946794,38.126506 0 0 0 46.890526,38.0808 z M 45.591513,315.12127 a 28.134314,22.848485 0 0 1 28.134316,-22.84848 h 84.402941 a 28.134314,22.848485 0 0 1 28.13432,22.84848 v 76.16162 a 28.134314,22.848485 0 0 1 -28.13432,22.84849 H 73.725829 A 28.134314,22.848485 0 0 1 45.591513,391.28289 Z m 0,106.42825 a 46.402863,37.684768 0 0 0 28.134316,7.81418 h 84.402941 a 46.402863,37.684768 0 0 0 28.13432,-7.81418 v 0.19802 a 28.134314,22.848485 0 0 1 -28.13432,22.84849 H 73.725829 A 28.134314,22.848485 0 0 1 45.591513,421.74754 Z"
+     id="path4"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;stroke-width:0.999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" />
+  <path
+     d="M 403.83531,227.53542 V 120.90915 A 46.946794,38.126506 0 0 0 356.94478,82.828344 H 272.54183 A 46.946794,38.126506 0 0 0 225.6513,120.90915 v 106.62627 a 46.946794,38.126506 0 0 0 46.89053,38.0808 h 84.40295 a 46.946794,38.126506 0 0 0 46.89053,-38.0808 z M 244.40752,120.90915 a 28.134314,22.848485 0 0 1 28.13431,-22.848483 h 84.40295 a 28.134314,22.848485 0 0 1 28.13431,22.848483 v 76.16162 a 28.134314,22.848485 0 0 1 -28.13431,22.84849 h -84.40295 a 28.134314,22.848485 0 0 1 -28.13431,-22.84849 z m 0,106.62627 v -0.19802 a 46.402863,37.684768 0 0 0 28.13431,7.81418 h 84.40295 a 46.402863,37.684768 0 0 0 28.13431,-7.81418 v 0.19802 a 28.134314,22.848485 0 0 1 -28.13431,22.84848 h -84.40295 a 28.134314,22.848485 0 0 1 -28.13431,-22.84848 z"
+     id="path5"
+     style="fill:#666666;stroke-width:0.999995" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:203.632px;line-height:normal;font-family:Alef;-inkscape-font-specification:'Alef, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;text-anchor:end;fill:#800000;fill-rule:evenodd;stroke:none;stroke-width:3.54001px;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke markers fill"
+     x="173.52188"
+     y="228.29245"
+     id="text12"
+     transform="scale(1.1065106,0.90374188)"><tspan
+       sodipodi:role="line"
+       id="tspan12"
+       x="173.52188"
+       y="228.29245"
+       style="fill:#800000;stroke-width:3.54001px">א</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:113.725px;line-height:normal;font-family:Alef;-inkscape-font-specification:'Alef, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;text-anchor:end;fill:#800080;fill-rule:evenodd;stroke:none;stroke-width:3.54px;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke markers fill"
+     x="439.99069"
+     y="321.20746"
+     id="text13"
+     transform="scale(0.85843379,1.1649122)"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       x="439.99069"
+       y="321.20746"
+       style="fill:#800080;stroke-width:3.54px">ش</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:208.53px;line-height:normal;font-family:Alef;-inkscape-font-specification:'Alef, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;text-anchor:end;fill:#0000ff;fill-rule:evenodd;stroke:none;stroke-width:3.54px;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke markers fill"
+     x="335.23102"
+     y="234.19925"
+     id="text14"
+     transform="scale(1.1096588,0.90117792)"><tspan
+       sodipodi:role="line"
+       id="tspan14"
+       x="335.23102"
+       y="234.19925"
+       style="fill:#0000ff;stroke-width:3.54px">є</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:175.228px;line-height:normal;font-family:Alef;-inkscape-font-specification:'Alef, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;text-anchor:end;fill:#aa8800;fill-rule:evenodd;stroke:none;stroke-width:3.54001px;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke markers fill"
+     x="150.83275"
+     y="446.33887"
+     id="text15"
+     transform="scale(1.0954872,0.91283586)"><tspan
+       sodipodi:role="line"
+       id="tspan15"
+       x="150.83275"
+       y="446.33887"
+       style="fill:#aa8800;stroke-width:3.54001px">ñ</tspan></text>
+</svg>

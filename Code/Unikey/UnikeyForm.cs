@@ -7,18 +7,22 @@ namespace Unikey
 	{
 		private NotifyIcon trayIcon;
 		private ContextMenuStrip trayMenu;
+		private Settings	_settings	= new Settings();
+		private const string SETTING_FILE_NAME = "settings.json";
 
 		public UnikeyForm()
 		{
 			InitializeComponent();
 
-			this.ShowInTaskbar = false;
-			this.WindowState = FormWindowState.Normal;
+			this.ShowInTaskbar		= false;
+			this.WindowState		= FormWindowState.Normal;
 
-			this._pbKeyboard.Image	= Resources.unikey_he;
+			this._settings.Load(SETTING_FILE_NAME);
+			this.Opacity	= this._settings.Opacity;
+
+			// this._pbKeyboard.Image	= Resources.unikey_he;
 			this.InitializeTray();
 		}
-
 		protected override void OnShown(EventArgs e)
 		{
 			base.OnShown(e);
@@ -52,7 +56,6 @@ namespace Unikey
 			e.Cancel = true;
 			this.Hide();
 		}
-
 
 		private void InitializeTray()
 		{
@@ -96,7 +99,7 @@ namespace Unikey
 
 			trayIcon = new NotifyIcon
 			{
-				Text = "My Semi-Transparent Overlay",
+				Text = "Unikey",
 				Icon = this.Icon, // or load a custom .ico
 				ContextMenuStrip = trayMenu,
 				Visible = true
@@ -113,7 +116,6 @@ namespace Unikey
 		private void SetHebrewKeyboard()
 		{
 			this._pbKeyboard.Image = Properties.Resources.unikey_he;
-			this._pbKeyboard.Invalidate();
 		}
 
 		private void SetUkrainianKeyboard()
@@ -141,23 +143,28 @@ namespace Unikey
 			}
 		}
 
-
 		private void ShowSettings()
 		{
-			MessageBox.Show(
-				"Settings dialog goes here.",
-				"Settings",
-				MessageBoxButtons.OK,
-				MessageBoxIcon.Information);
-		}
+			SettingsDialog dialog	= new SettingsDialog();
+			dialog.Settings			= this._settings;
 
+			if (dialog.ShowDialog() == DialogResult.OK)
+			{
+				this._settings = dialog.Settings;
+				this._settings.Save(SETTING_FILE_NAME);
+
+				this.Opacity	= this._settings.Opacity;
+				this.Refresh(); 
+			}
+		}
 
 		private void ExitApplication()
 		{
 			trayIcon.Visible = false;
 			trayIcon.Dispose();
 			Application.Exit();
-		}
 
+			Environment.Exit(0);
+		}
 	}
 }
