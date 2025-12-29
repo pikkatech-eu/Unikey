@@ -50,6 +50,7 @@
 			this.AutoScaleMode = AutoScaleMode.Font;
 			this.BackColor = Color.Fuchsia;
 			this.ClientSize = new Size(556, 153);
+			this.ControlBox = false;
 			this.Controls.Add(this._pbKeyboard);
 			this.Font = new Font("Consolas", 10F);
 			this.FormBorderStyle = FormBorderStyle.FixedToolWindow;

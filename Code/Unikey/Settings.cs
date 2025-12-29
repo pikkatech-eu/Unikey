@@ -4,9 +4,11 @@ namespace Unikey
 {
 	public class Settings
 	{
-		public Size		Size	{get;set;}	= new Size(574, 200);
-		public float	Opacity	{get;set;}	= 0.62F;
-		public int		Margin	{get;set;}	= 0;
+		public Size		Size			{get;set;}	= new Size(574, 200);
+		public float	Opacity			{get;set;}	= 0.62F;
+		public int		Margin			{get;set;}	= 0;
+
+		public string	LastKeyboard	{get;set;}	= "";
 
 		private string ToJson()
 		{
@@ -17,11 +19,12 @@ namespace Unikey
 
 		private void FromJson(string json)
 		{
-			var other = JsonSerializer.Deserialize<Settings>(json);
+			var other			= JsonSerializer.Deserialize<Settings>(json);
 
-			this.Margin		= other.Margin;
-			this.Opacity	= other.Opacity;
-			this.Size		= other.Size;
+			this.Margin			= other.Margin;
+			this.Opacity		= other.Opacity;
+			this.Size			= other.Size;
+			this.LastKeyboard	= other.LastKeyboard;
 		}
 
 		public void Save(string fileName)
