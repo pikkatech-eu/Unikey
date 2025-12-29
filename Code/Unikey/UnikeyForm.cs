@@ -1,4 +1,6 @@
 
+using Unikey.Properties;
+
 namespace Unikey
 {
 	public partial class UnikeyForm : Form
@@ -13,11 +15,8 @@ namespace Unikey
 			this.ShowInTaskbar = false;
 			this.WindowState = FormWindowState.Normal;
 
+			this._pbKeyboard.Image	= Resources.unikey_he;
 			this.InitializeTray();
-
-			Bitmap bmp = Properties.Resources.unikey_fa;
-
-			this._pbKeyboard.Image = bmp;
 		}
 
 		protected override void OnShown(EventArgs e)
@@ -62,6 +61,19 @@ namespace Unikey
 			var toggleItem = new ToolStripMenuItem("Hide Display");
 			toggleItem.Click += (s, e) => ToggleDisplay(toggleItem);
 
+			var farsiItem = new ToolStripMenuItem("FA");
+			farsiItem.Click += (s, e) => this.SetFarsiKeyboard();
+
+			var hebrewItem = new ToolStripMenuItem("HE");
+			hebrewItem.Click += (s, e) => this.SetHebrewKeyboard();
+
+			var ukrainianItem = new ToolStripMenuItem("UK");
+			ukrainianItem.Click += (s, e) => this.SetUkrainianKeyboard();
+
+			var spanishItem = new ToolStripMenuItem("ES");
+			spanishItem.Click += (s, e) => this.SetSpanishKeyboard();
+
+
 			var settingsItem = new ToolStripMenuItem("Settings");
 			settingsItem.Click += (s, e) => ShowSettings();
 
@@ -70,6 +82,14 @@ namespace Unikey
 
 			trayMenu.Items.Add(toggleItem);
 			trayMenu.Items.Add(new ToolStripSeparator());
+
+			trayMenu.Items.Add(farsiItem);
+			trayMenu.Items.Add(hebrewItem);
+			trayMenu.Items.Add(ukrainianItem);
+			trayMenu.Items.Add(spanishItem);
+
+			trayMenu.Items.Add(new ToolStripSeparator());
+
 			trayMenu.Items.Add(settingsItem);
 			trayMenu.Items.Add(new ToolStripSeparator());
 			trayMenu.Items.Add(exitItem);
@@ -83,6 +103,27 @@ namespace Unikey
 			};
 
 			trayIcon.DoubleClick += (s, e) => ToggleDisplay(toggleItem);
+		}
+
+		private void SetFarsiKeyboard()
+		{
+			this._pbKeyboard.Image = Properties.Resources.unikey_fa;
+		}
+
+		private void SetHebrewKeyboard()
+		{
+			this._pbKeyboard.Image = Properties.Resources.unikey_he;
+			this._pbKeyboard.Invalidate();
+		}
+
+		private void SetUkrainianKeyboard()
+		{
+			this._pbKeyboard.Image = Properties.Resources.unikey_uk;
+		}
+
+		private void SetSpanishKeyboard()
+		{
+			this._pbKeyboard.Image = Properties.Resources.unikey_es;
 		}
 
 		private void ToggleDisplay(ToolStripMenuItem menuItem)
