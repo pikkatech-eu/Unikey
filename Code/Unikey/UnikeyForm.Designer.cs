@@ -38,7 +38,7 @@
 			this._pbKeyboard.Location = new Point(0, 0);
 			this._pbKeyboard.Margin = new Padding(0);
 			this._pbKeyboard.Name = "_pbKeyboard";
-			this._pbKeyboard.Size = new Size(800, 450);
+			this._pbKeyboard.Size = new Size(494, 153);
 			this._pbKeyboard.SizeMode = PictureBoxSizeMode.StretchImage;
 			this._pbKeyboard.TabIndex = 0;
 			this._pbKeyboard.TabStop = false;
@@ -48,11 +48,11 @@
 			this.AutoScaleDimensions = new SizeF(8F, 20F);
 			this.AutoScaleMode = AutoScaleMode.Font;
 			this.BackColor = Color.Fuchsia;
-			this.ClientSize = new Size(800, 450);
+			this.ClientSize = new Size(494, 153);
 			this.Controls.Add(this._pbKeyboard);
 			this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
 			this.Name = "UnikeyForm";
-			this.Opacity = 0.25D;
+			this.Opacity = 0.5D;
 			this.Text = "UniKey";
 			this.TransparencyKey = Color.Fuchsia;
 			((System.ComponentModel.ISupportInitialize)this._pbKeyboard).EndInit();

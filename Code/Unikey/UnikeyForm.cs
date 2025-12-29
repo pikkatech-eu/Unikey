@@ -15,9 +15,9 @@ namespace Unikey
 
 			this.InitializeTray();
 
-			string fileName = "C:\\pikkatech.eu\\Projects\\Active\\Unikey\\Images\\Raster\\ibisana++.jpg";
+			Bitmap bmp = Properties.Resources.unikey_fa;
 
-			this._pbKeyboard.Image = Image.FromFile(fileName);
+			this._pbKeyboard.Image = bmp;
 		}
 
 		protected override void OnShown(EventArgs e)
